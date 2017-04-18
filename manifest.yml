@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bazlatesting
+  host: bazlatesting
+  disk_quota: 1024M
+  services:
+  - bazlatesting-cloudantNoSQLDB
+  - bazlatesting-iotf-service
